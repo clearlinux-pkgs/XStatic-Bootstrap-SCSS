@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Bootstrap-SCSS
 Version  : 3.2.0.0
-Release  : 12
+Release  : 13
 URL      : https://pypi.python.org/packages/source/X/XStatic-Bootstrap-SCSS/XStatic-Bootstrap-SCSS-3.2.0.0.tar.gz
 Source0  : https://pypi.python.org/packages/source/X/XStatic-Bootstrap-SCSS/XStatic-Bootstrap-SCSS-3.2.0.0.tar.gz
 Summary  : Bootstrap-SCSS 3.2.0 (XStatic packaging standard)
