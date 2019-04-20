@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Bootstrap-SCSS
 Version  : 3.3.7.1
-Release  : 20
+Release  : 21
 URL      : http://pypi.debian.net/XStatic-Bootstrap-SCSS/XStatic-Bootstrap-SCSS-3.3.7.1.tar.gz
 Source0  : http://pypi.debian.net/XStatic-Bootstrap-SCSS/XStatic-Bootstrap-SCSS-3.3.7.1.tar.gz
 Summary  : Bootstrap-SCSS 3.3.7 (XStatic packaging standard)
