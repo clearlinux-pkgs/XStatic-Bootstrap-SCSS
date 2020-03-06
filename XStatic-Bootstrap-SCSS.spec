@@ -4,7 +4,7 @@
 #
 Name     : XStatic-Bootstrap-SCSS
 Version  : 3.3.7.1
-Release  : 25
+Release  : 26
 URL      : http://pypi.debian.net/XStatic-Bootstrap-SCSS/XStatic-Bootstrap-SCSS-3.3.7.1.tar.gz
 Source0  : http://pypi.debian.net/XStatic-Bootstrap-SCSS/XStatic-Bootstrap-SCSS-3.3.7.1.tar.gz
 Summary  : Bootstrap-SCSS 3.3.7 (XStatic packaging standard)
@@ -15,18 +15,17 @@ Requires: XStatic-Bootstrap-SCSS-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 
 %description
-XStatic-Bootstrap-SCSS
 --------------
-
-Bootstrap style library packaged for setuptools (easy_install) / pip.
-
-This package is intended to be used by **any** project that needs these files.
-
-It intentionally does **not** provide any extra code except some metadata
-**nor** has any extra requirements. You MAY use some minimal support code from
-the XStatic base package, if you like.
-
-You can find more info about the xstatic packaging way in the package `XStatic`.
+        
+        Bootstrap style library packaged for setuptools (easy_install) / pip.
+        
+        This package is intended to be used by **any** project that needs these files.
+        
+        It intentionally does **not** provide any extra code except some metadata
+        **nor** has any extra requirements. You MAY use some minimal support code from
+        the XStatic base package, if you like.
+        
+        You can find more info about the xstatic packaging way in the package `XStatic`.
 
 %package python
 Summary: python components for the XStatic-Bootstrap-SCSS package.
@@ -42,7 +41,7 @@ python components for the XStatic-Bootstrap-SCSS package.
 Summary: python3 components for the XStatic-Bootstrap-SCSS package.
 Group: Default
 Requires: python3-core
-Provides: pypi(XStatic-Bootstrap-SCSS)
+Provides: pypi(xstatic_bootstrap_scss)
 
 %description python3
 python3 components for the XStatic-Bootstrap-SCSS package.
@@ -57,8 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582852026
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583525702
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
