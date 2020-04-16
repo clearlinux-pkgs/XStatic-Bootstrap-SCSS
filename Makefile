@@ -1,5 +1,5 @@
 PKG_NAME := XStatic-Bootstrap-SCSS
-URL = http://pypi.debian.net/XStatic-Bootstrap-SCSS/XStatic-Bootstrap-SCSS-3.3.7.1.tar.gz
+URL = https://files.pythonhosted.org/packages/ff/05/f4aaaf2a001ef0453ae7bd6c69d194ae7ed3d35e76323381f6a56908b546/XStatic-Bootstrap-SCSS-3.4.1.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
